@@ -15,7 +15,7 @@ export default function generateTree() {
       counter: 1,
       childIds: [2]
     }
-  }
+  };
 
   // for (let i = 1; i < 1000; i++) {
   //   let parentId = Math.floor(Math.pow(Math.random(), 2) * i)
@@ -27,5 +27,5 @@ export default function generateTree() {
   //   tree[parentId].childIds.push(i)
   // }
 
-  return tree
+  return tree;
 }
